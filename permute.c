@@ -2,9 +2,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-int permute_inner(int *array, int *flags, int *result, int size, int index);
 int permute(int *array, int arraySize);
-
+int permute_inner(int *array, int *flags, int *result, int size, int index);
 
 int permute(int *array, int arraySize)
 {
